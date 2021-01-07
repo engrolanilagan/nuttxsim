@@ -1,0 +1,13 @@
+#
+# For a description of the syntax of this configuration file,
+# see the file kconfig-language.txt in the NuttX tools repository.
+#
+
+config ZMQ_LIBCZMQ
+	tristate "\"CZMQ Library\""
+	default n
+	---help---
+		Enable High Level C Bindig for ZeroMQ Library
+
+if ZMQ_LIBZMQ
+endif

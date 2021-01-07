@@ -1,0 +1,266 @@
+Create .version
+Create version.h
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/libs/libxx'
+make[1]: Nothing to be done for 'dirlinks'.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/libs/libxx'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/boards'
+make[1]: Nothing to be done for 'dirlinks'.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/boards'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/openamp'
+make[1]: Nothing to be done for 'dirlinks'.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/openamp'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/platform'
+LN: platform/board to /home/ubuntu/sandbox/zmq_nuttx/apps/platform/dummy
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/platform'
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/boards'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/boards/sim/sim/sim/src'
+make[2]: Nothing to be done for 'context'.
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/boards/sim/sim/sim/src'
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/boards'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/fs'
+make[1]: Nothing to be done for 'context'.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/fs'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/examples/hello'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/examples/hello'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/builtin'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/builtin'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/nsh'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/nsh'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/readline'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/readline'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/mkfatfs'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/mkfatfs'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/passwd'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/passwd'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/hello'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/hello'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/pub'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/pub'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/sub'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/sub'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/nshlib'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/nshlib'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/platform'
+LN: platform/board to /home/ubuntu/sandbox/zmq_nuttx/apps/platform/dummy
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/platform'
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/examples/hello'
+make[3]: Nothing to be done for 'register'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/examples/hello'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/builtin'
+make[3]: Nothing to be done for 'register'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/builtin'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/nsh'
+make[3]: Nothing to be done for 'register'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/nsh'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/readline'
+make[3]: Nothing to be done for 'register'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/readline'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/mkfatfs'
+make[3]: Nothing to be done for 'register'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/mkfatfs'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/passwd'
+make[3]: Nothing to be done for 'register'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/passwd'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/hello'
+make[3]: Nothing to be done for 'register'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/hello'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/pub'
+make[3]: Nothing to be done for 'register'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/pub'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/sub'
+make[3]: Nothing to be done for 'register'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/sub'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/nshlib'
+make[3]: Nothing to be done for 'register'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/nshlib'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/platform'
+make[3]: Nothing to be done for 'register'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/platform'
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps'
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/arch/sim/src'
+make[1]: Nothing to be done for 'context'.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/arch/sim/src'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/libs/libc'
+make[1]: Nothing to be done for 'context'.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/libs/libc'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/examples/hello'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/examples/hello'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/builtin'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/builtin'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/nsh'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/nsh'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/readline'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/readline'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/mkfatfs'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/mkfatfs'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/passwd'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/passwd'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/hello'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/hello'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/pub'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/pub'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/sub'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/sub'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/nshlib'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/nshlib'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/platform'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/platform'
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/sched'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/sched'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/drivers'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/drivers'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/boards'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/boards'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/arch/sim/src'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/arch/sim/src'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/fs'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/fs'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/binfmt'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/binfmt'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/libs/libc'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/libs/libc'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/mm'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/mm'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/sched'
+make[1]: 'libsched.a' is up to date.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/sched'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/drivers'
+make[1]: 'libdrivers.a' is up to date.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/drivers'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/boards'
+make[1]: 'libboards.a' is up to date.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/boards'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/libs/libc'
+make[1]: 'libc.a' is up to date.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/libs/libc'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/mm'
+make[1]: 'libmm.a' is up to date.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/mm'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/arch/sim/src'
+make[1]: 'libarch.a' is up to date.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/arch/sim/src'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps'
+rm -f /home/ubuntu/sandbox/zmq_nuttx/apps/libapps.a
+make /home/ubuntu/sandbox/zmq_nuttx/apps/libapps.a
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/examples/hello'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/examples/hello'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/nshlib'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/nshlib'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/builtin'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/builtin'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/nsh'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/nsh'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/readline'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/readline'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/mkfatfs'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/mkfatfs'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/passwd'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/passwd'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/hello'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/hello'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/pub'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/pub'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/sub'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/sub'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/platform'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/platform'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/examples/hello'
+AR (add): libapps.a      hello_main.home.ubuntu.sandbox.zmq_nuttx.apps.examples.hello.o 
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/examples/hello'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/nshlib'
+AR (add): libapps.a    nsh_init.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_parse.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_console.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_script.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_system.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_command.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_fscmds.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_ddcmd.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_proccmds.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_mmcmds.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_timcmds.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_envcmds.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_syscmds.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_dbgcmds.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_session.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_login.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_fsutils.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_builtin.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_fileapps.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_romfsetc.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_mntcmds.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_consolemain.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_test.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o nsh_passwdcmds.home.ubuntu.sandbox.zmq_nuttx.apps.nshlib.o   
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/nshlib'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/builtin'
+AR (add): libapps.a    builtin_list.home.ubuntu.sandbox.zmq_nuttx.apps.builtin.o exec_builtin.home.ubuntu.sandbox.zmq_nuttx.apps.builtin.o   
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/builtin'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/nsh'
+AR (add): libapps.a      nsh_main.home.ubuntu.sandbox.zmq_nuttx.apps.system.nsh.o sh_main.home.ubuntu.sandbox.zmq_nuttx.apps.system.nsh.o 
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/nsh'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/readline'
+AR (add): libapps.a    readline.home.ubuntu.sandbox.zmq_nuttx.apps.system.readline.o readline_common.home.ubuntu.sandbox.zmq_nuttx.apps.system.readline.o   
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/system/readline'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/mkfatfs'
+AR (add): libapps.a    mkfatfs.home.ubuntu.sandbox.zmq_nuttx.apps.fsutils.mkfatfs.o configfat.home.ubuntu.sandbox.zmq_nuttx.apps.fsutils.mkfatfs.o writefat.home.ubuntu.sandbox.zmq_nuttx.apps.fsutils.mkfatfs.o   
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/mkfatfs'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/passwd'
+AR (add): libapps.a    passwd_verify.home.ubuntu.sandbox.zmq_nuttx.apps.fsutils.passwd.o passwd_find.home.ubuntu.sandbox.zmq_nuttx.apps.fsutils.passwd.o passwd_encrypt.home.ubuntu.sandbox.zmq_nuttx.apps.fsutils.passwd.o   
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/fsutils/passwd'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/hello'
+AR (add): libapps.a      hello_zmq.home.ubuntu.sandbox.zmq_nuttx.apps.zmq.hello.o 
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/hello'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/pub'
+AR (add): libapps.a      pub.home.ubuntu.sandbox.zmq_nuttx.apps.zmq.pub.o 
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/pub'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/sub'
+AR (add): libapps.a      sub.home.ubuntu.sandbox.zmq_nuttx.apps.zmq.sub.o 
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/zmq/sub'
+make[3]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/apps/platform'
+AR (add): libapps.a    dummy.home.ubuntu.sandbox.zmq_nuttx.apps.platform.o   
+make[3]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps/platform'
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps'
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/apps'
+IN: /home/ubuntu/sandbox/zmq_nuttx/apps/libapps.a -> staging/libapps.a
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/fs'
+make[1]: 'libfs.a' is up to date.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/fs'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/binfmt'
+make[1]: 'libbinfmt.a' is up to date.
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/binfmt'
+make[1]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/arch/sim/src'
+make[2]: Entering directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/boards/sim/sim/sim/src'
+make[2]: 'libboard.a' is up to date.
+make[2]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/boards/sim/sim/sim/src'
+LD:  nuttx
+Makefile:314: recipe for target 'nuttx' failed
+make[1]: Leaving directory '/home/ubuntu/sandbox/zmq_nuttx/incubator-nuttx/arch/sim/src'
+tools/Makefile.unix:423: recipe for target 'nuttx' failed

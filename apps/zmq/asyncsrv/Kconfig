@@ -1,0 +1,13 @@
+#
+# For a description of the syntax of this configuration file,
+# see the file kconfig-language.txt in the NuttX tools repository.
+#
+
+config ZMQ_ASYNCSRV
+	tristate "\"CZMQ Asynchronous Server\" example"
+	default n
+	---help---
+		Enable the CZMQ Asynchronous Server example
+
+if ZMQ_ASYNCSRV
+endif

@@ -1,0 +1,378 @@
+socket.c creating socket domain=2 typ=2 protocol=0
+socket.c creating socket domain=2 typ=2 protocol=0
+socket.c creating socket domain=2 typ=2 protocol=0
+socket.c creating socket domain=10 typ=2 protocol=0
+socket.c creating socket domain=10 typ=2 protocol=0
+socket.c creating socket domain=10 typ=2 protocol=0
+
+NuttShell (NSH) NuttX-10.0.1
+nsh> [Kifup eth0
+socket.c creating socket domain=2 typ=2 protocol=0
+ifup eth0...OK
+nsh> [Kzmqhwserver
+zmqhwserver [4:100]
+nsh> [Kzmq.cpp zmq_ctx_new entry
+zmq.cpp zmq_ctx_new intialize_network okay
+ip.cpp make_fdpair eventfd=3
+signaler.c signaler_t constructor, unblock r,w FD ret=0
+ip.cpp unblock_socket fd_t=3
+ip.cpp unblock_socket fcntl done flag=3
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+ip.cpp unblock_socket fd_t=3
+ip.cpp unblock_socket fcntl done flag=67
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+creating ctx_tmanage_random
+zmq.cpp zmq_ctx_new ctx ctx_t construction okay 
+hwserver.c: context created at test okay 
+ip.cpp make_fdpair eventfd=4
+signaler.c signaler_t constructor, unblock r,w FD ret=0
+ip.cpp unblock_socket fd_t=4
+ip.cpp unblock_socket fcntl done flag=3
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+ip.cpp unblock_socket fd_t=4
+ip.cpp unblock_socket fcntl done flag=67
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+ip.cpp make_fdpair eventfd=5
+signaler.c signaler_t constructor, unblock r,w FD ret=0
+ip.cpp unblock_socket fd_t=5
+ip.cpp unblock_socket fcntl done flag=3
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+ip.cpp unblock_socket fd_t=5
+ip.cpp unblock_socket fcntl done flag=67
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+ip.cpp make_fdpair eventfd=6
+signaler.c signaler_t constructor, unblock r,w FD ret=0
+ip.cpp unblock_socket fd_t=6
+ip.cpp unblock_socket fcntl done flag=3
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+ip.cpp unblock_socket fd_t=6
+ip.cpp unblock_socket fcntl done flag=67
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+hwserver.c: socket created at test okay 
+zmq.cpp as_socket_base_t socket?=1 threadSafe?=0
+socket_base.cpp process_commands timeout=0 throttle=0
+socket_base.cpp process_commands checking for commands
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+socket_base.cpp process_commands entering while loop rc=-1
+socket_base.cpp process_commands exit while loop rc=-1
+socket_base.cpp bind parse_uri=0 check_protocol=0
+socket.c creating socket domain=2 typ=524289 protocol=6
+net/setsockopt sockfd=8 level=1 option=11
+setsockopt.c psock_setsockopt ret=0
+create_socket setsockopt rc=0
+bind.c bind sockfd=8
+signaler.c write inc[0x992c85f8]=1 with size=8 bytes as sz=4 bytes to _w=5
+signaler.c write inc[0x992c85f8]=1 with size=8 bytes as sz=4 bytes to _w=6
+hwserver.c: binding to socket at test finished. rc=0
+hwserver.c : waiting to recv message!
+zmq.cpp zmq_recv entry
+zmq.cpp as_socket_base_t socket?=1 threadSafe?=0
+zmq.cpp zmq_recv zmq_msg_init successful rc=0
+socket_base.cpp recv checks done. calling xrecv 
+socket_base.cpp recv xrecv done. rc=-1 
+socketbase.cpp recv dontWait=0 rcvtimeo=-1
+socket_base.cpp recv timeout=-1 end=0
+socket_base.cpp recv check _ticks
+socket_base.cpp recv checking block=1 and _ticks=1
+socket_base.cpp recv entering loop now.
+.socket_base.cpp process_commands timeout=-1 throttle=0
+socket_base.cpp process_commands checking for commands
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=-1
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=6 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+socket_base.cpp process_commands entering while loop rc=0
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+socket_base.cpp process_commands _mailbox->recv rc=-1
+socket_base.cpp process_commands exit while loop rc=-1
+.socket_base.cpp process_commands timeout=-1 throttle=0
+socket_base.cpp process_commands checking for commands
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=-1
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=5 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+zmqhwclient
+zmqhwclient [7:100]
+nsh> [Khw client.c : Connecting to hello world server...
+zmq.cpp zmq_ctx_new entry
+zmq.cpp zmq_ctx_new intialize_network okay
+ip.cpp make_fdpair eventfd=3
+signaler.c signaler_t constructor, unblock r,w FD ret=0
+ip.cpp unblock_socket fd_t=3
+ip.cpp unblock_socket fcntl done flag=3
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+ip.cpp unblock_socket fd_t=3
+ip.cpp unblock_socket fcntl done flag=67
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+creating ctx_tmanage_random
+zmq.cpp zmq_ctx_new ctx ctx_t construction okay 
+hwclient.c : Context created!
+ip.cpp make_fdpair eventfd=4
+signaler.c signaler_t constructor, unblock r,w FD ret=0
+ip.cpp unblock_socket fd_t=4
+ip.cpp unblock_socket fcntl done flag=3
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+ip.cpp unblock_socket fd_t=4
+ip.cpp unblock_socket fcntl done flag=67
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+ip.cpp make_fdpair eventfd=5
+signaler.c signaler_t constructor, unblock r,w FD ret=0
+ip.cpp unblock_socket fd_t=5
+ip.cpp unblock_socket fcntl done flag=3
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+ip.cpp unblock_socket fd_t=5
+ip.cpp unblock_socket fcntl done flag=67
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+ip.cpp make_fdpair eventfd=6
+signaler.c signaler_t constructor, unblock r,w FD ret=0
+ip.cpp unblock_socket fd_t=6
+ip.cpp unblock_socket fcntl done flag=3
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+ip.cpp unblock_socket fd_t=6
+ip.cpp unblock_socket fcntl done flag=67
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+hwclient.c : socket created
+zmq.cpp as_socket_base_t socket?=1 threadSafe?=0
+socket_base.cpp process_commands timeout=0 throttle=0
+socket_base.cpp process_commands checking for commands
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+socket_base.cpp process_commands entering while loop rc=-1
+socket_base.cpp process_commands exit while loop rc=-1
+signaler.c write inc[0x992fa238]=1 with size=8 bytes as sz=4 bytes to _w=5
+signaler.c write inc[0x992fa238]=1 with size=8 bytes as sz=4 bytes to _w=6
+hwclient.c : connected to socket
+hwclient.c : NuttX sending random number 1386879775...
+zmq.cpp as_socket_base_t socket?=1 threadSafe?=0
+socket_base.cpp process_commands timeout=0 throttle=1
+socket_base.cpp process_commands checking for commands
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=6 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+socket_base.cpp process_commands entering while loop rc=0
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+socket_base.cpp process_commands _mailbox->recv rc=-1
+socket_base.cpp process_commands exit while loop rc=-1
+pipe.cpp read entering while loop
+hwclient.c : NuttX sent successfully.
+zmq.cpp as_socket_base_t socket?=1 threadSafe?=0
+signaler.c write inc[0x992fb238]=1 with size=8 bytes as sz=4 bytes to _w=4
+signaler.c write inc[0x992fade8]=1 with size=8 bytes as sz=4 bytes to _w=6
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=-1
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=5 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+mailbox.cpp recv _cpipe.read _active=1
+socket.c creating socket domain=2 typ=524289 protocol=6
+zmq::tcp_connecteter_t::openip.cpp unblock_socket fd_t=8
+ip.cpp unblock_socket fcntl done flag=131
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=4 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+socket_base_t::start_reaping
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+socket_base.cpp process_commands timeout=0 throttle=0
+socket_base.cpp process_commands checking for commands
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=6 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+socket_base.cpp process_commands entering while loop rc=0
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+socket_base.cpp process_commands _mailbox->recv rc=-1
+socket_base.cpp process_commands exit while loop rc=-1
+[42949680.510000] psock_tcp_cansend: ERROR: Not connected
+ip.cpp unblock_socket fd_t=8
+ip.cpp unblock_socket fcntl done flag=195
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _cpipe.read _active=1
+signaler.c write inc[0x9931c3f8]=1 with size=8 bytes as sz=4 bytes to _w=6
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+ip.cpp unblock_socket fd_t=9
+ip.cpp unblock_socket fcntl done flag=131
+ip.cpp unblock_socket set to NONBLOCK rc = 0 
+signaler.c write inc[0x992ea3b8]=1 with size=8 bytes as sz=4 bytes to _w=5
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=5 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+socket_base.cpp process_commands timeout=0 throttle=0
+socket_base.cpp process_commands checking for commands
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=6 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+socket_base.cpp process_commands entering while loop rc=0
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+socket_base.cpp process_commands _mailbox->recv rc=-1
+socket_base.cpp process_commands exit while loop rc=-1
+blob.hpp set size_=0
+signaler.c write inc[0x992e9fb8]=1 with size=8 bytes as sz=4 bytes to _w=6
+pipe.cpp read entering while loop
+pipe.cpp read entering while loop
+pipe.cpp read check delimiter
+signaler.c write inc[0x9931c478]=1 with size=8 bytes as sz=4 bytes to _w=6
+pipe.cpp read entering while loop
+pipe.cpp read check delimiter
+pipe.cpp read entering while loop
+pipe.cpp read check delimiter
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=6 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+socket_base.cpp process_commands entering while loop rc=0
+pipe.cpp read entering while loop
+pipe.cpp read check delimiter
+signaler.c write inc[0x992c8b78]=1 with size=8 bytes as sz=4 bytes to _w=5
+blob.hpp set size_=5
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+socket_base.cpp process_commands _mailbox->recv rc=-1
+socket_base.cpp process_commands exit while loop rc=-1
+pipe.cpp read entering while loop
+.socket_base.cpp process_commands timeout=-1 throttle=0
+socket_base.cpp process_commands checking for commands
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=-1
+socket_base.cpp process_commands timeout=0 throttle=0
+socket_base.cpp process_commands checking for commands
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=6 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+socket_base.cpp process_commands entering while loop rc=0
+mailbox.cpp recv _cpipe.read _active=1
+socket_base.cpp process_commands _mailbox->recv rc=0
+signaler.c write inc[0x9930bcf8]=1 with size=8 bytes as sz=4 bytes to _w=5
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+socket_base.cpp process_commands _mailbox->recv rc=-1
+socket_base.cpp process_commands exit while loop rc=-1
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=5 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+signaler.c write inc[0x992ea478]=1 with size=8 bytes as sz=4 bytes to _w=6
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=5 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+signaler.c write inc[0x9931c278]=1 with size=8 bytes as sz=4 bytes to _w=6
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=6 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+socket_base.cpp process_commands entering while loop rc=0
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+socket_base.cpp process_commands _mailbox->recv rc=-1
+socket_base.cpp process_commands exit while loop rc=-1
+pipe.cpp read entering while loop
+pipe.cpp read check delimiter
+signaler.c write inc[0x992c8eb8]=1 with size=8 bytes as sz=4 bytes to _w=5
+pipe.cpp read entering while loop
+pipe.cpp read check delimiter
+
+zmq.cpp s_recvmsg s->recv rc=0
+zmq.cpp zmq_recv s_recvmsg nbytes=10
+hwserver.c : received 1386879775
+socket_base.cpp process_commands timeout=0 throttle=0
+socket_base.cpp process_commands checking for commands
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=6 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+socket_base.cpp process_commands entering while loop rc=0
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+socket_base.cpp process_commands _mailbox->recv rc=-1
+socket_base.cpp process_commands exit while loop rc=-1
+signaler.c write inc[0x9930bbe8]=1 with size=8 bytes as sz=4 bytes to _w=4
+mailbox.cpp recv _cpipe.read _active=0
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=4 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+mailbox.cpp recv _cpipe.read _active=1
+signaler.c write inc[0x9930bda8]=1 with size=8 bytes as sz=4 bytes to _w=3
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+signaler.cpp wait based on poll rc=1
+mailbox.cpp recv _signaler.recv_failble
+signaler.cpp recv_failable fd=3 sz=4 sizeof(dummy)=8
+mailbox.cpp recv _cpipe.read
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _cpipe.read _active=1
+mailbox.cpp recv _signaler.wait timeout=0
+signaler.cpp wait based on poll rc=0
+manage_random
+poweroff
