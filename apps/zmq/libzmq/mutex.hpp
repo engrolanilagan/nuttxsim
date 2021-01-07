@@ -133,6 +133,7 @@ class mutex_t
     inline void lock ()
     {
         int rc = pthread_mutex_lock (&_mutex);
+	printf("mutex.hpp lock rc=%d\n", rc);
         posix_assert (rc);
     }
 

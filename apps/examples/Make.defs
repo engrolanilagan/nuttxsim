@@ -35,6 +35,3 @@
 ############################################################################
 
 include $(wildcard $(APPDIR)/examples/*/Make.defs)
-ifeq ($(CONFIG_EXAMPLES_MYAPP), y)
-CONFIGURED_APPS += examples/myapp
-endif
